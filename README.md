@@ -1,6 +1,7 @@
 # YunaWrite
 
 **Program Name:** YunaWrite  
+**YunaWrite** is a lightweight command-line file management tool written in C++.
 **Language:** C++  
 **Program Language:** English, 简体中文  
 **Version:** 0.2  
