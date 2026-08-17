@@ -1,4 +1,13 @@
 # YunaWrite
-I 'm a Cpp beginner.This is a small practice project-a simple file management tool that runs on win10 or win11.
 
-我Cpp刚开始学，这是个可以在win10和win11上跑的小文件管理程序，拿来练手的。
+**Program Name:** YunaWrite  
+**Language:** C++  
+**Program Language:** English, 简体中文  
+**Version:** 0.2  
+
+## What's New in 0.2
+- The `virfl` layer now supports Android.
+- Integrated the CODE and RUN layers.
+- Added new commands to CODE layer: `list`, `chcon` (change content), `del`, `find`, `mv`.
+- Added `mail` (news system).
+- Added Contributors list.
