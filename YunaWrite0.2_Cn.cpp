@@ -132,7 +132,7 @@ static void information_os()
     std::cout << "作者: Biriks-off" << std::endl;
     std::cout << "环境: C++20, VS 2026, Microsoft Windows 10" << std::endl;
     std::cout << "版本: " << VER << std::endl;
-    std::cout << "语言: 英文" << std::endl;
+    std::cout << "语言: 简体中文" << std::endl;
     std::cout << "创建日期 (0.0.1): 2026.8.14" << std::endl;
     std::cout << "==信息结束==" << std::endl;
 
@@ -309,7 +309,7 @@ int main()
     ptr.p_size = 0;
     std::cout << "YUNA YunaWrite " << "[版本: " << VER << " ]" << std::endl;
     std::cout << "输入 \"help\" 查看帮助菜单" << std::endl;
-    std::cout << "语言: 英文" << std::endl;
+    std::cout << "语言: 简体中文" << std::endl;
     std::cout << std::endl;
     static std::string name2, name3, name1, cppcode;
     while (1)
