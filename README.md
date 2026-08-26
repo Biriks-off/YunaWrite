@@ -7,6 +7,9 @@
 
 ## Explain
 
+**We strongly recommend that you put the program in a folder before running it.
+😂**
+
 The core code is safe(maybe😂), while all behavior is controlled by plain text files. This allows you to modify the system name, prompt, colors, and even the patch history without recompiling
 
 ## License
