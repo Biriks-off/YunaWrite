@@ -1,19 +1,24 @@
 # YunaWrite
 
-**Libre plug-ins and sandboxes**
+*YunaWrite is a blank paper*
+
+This is a lightweight command-line file manager and sandbox written in pure C++
+
+The core code is safe(maybe😂), while all behavior is controlled by plain text files. This allows you to modify the system name, prompt, colors, and even the patch history without recompiling
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Features
 
-- **Libre Plug-ins**: `opexe` (Open anything), `mail` (Edit your own txt news), `setting` (Edit txt config for colors).
-- **Sandbox**: `virfl` (A safe virtual file system). Delete System32 all you want. The real system stays safe.
-- **Self-healing**: Delete the `setting.txt` or `mail.txt`? The program automatically recreates them.
-- **Smart Input**: Press `Ctrl+Z` (Windows) / `Ctrl+D` (Linux/macOS) to instantly return or cancel. Never crash.
-- **Compiler as Plugin**: Use `cpp` to auto-generate `.bat`, `.command`, or `.sh` scripts for GCC/Clang.
+- **Configurable via txt**: Change the prompt, system name, and colors instantly using `setting.txt`, `prompt.txt`, `osname.txt`, etc.
+- **Virtual Sandbox (`virfl`)**: Test files safely in memory.
+- **Universal Opener (`opexe`)**: Open any file or directory directly.
+- **Compiler Interfaces**: Generate batch/shell scripts for C (`cbat`), C++ (`cpp`), Python (`py`), and JavaScript (`js`).
+- **Self-Healing**: Missing configuration files are automatically recreated.
 
-## Build & Run
+## Build
 
-Run the `.exe` directly, or compile the single `.cpp` file with any standard C++20 compiler (GCC/Clang recommended).
-
-## Plug-ins Philosophy
-
-Mechanism and Strategy separation. You don't need to touch the source code. Just edit the `.txt` files to change the system.
+```bash
+g++ -std=c++20 src/main.cpp -o yuna
