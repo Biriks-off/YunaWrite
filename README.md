@@ -5,7 +5,7 @@
 
 *This is a lightweight command-line file manager and sandbox written in pure C++*
 
-##Explain
+## Explain
 
 The core code is safe(maybe😂), while all behavior is controlled by plain text files. This allows you to modify the system name, prompt, colors, and even the patch history without recompiling
 
