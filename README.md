@@ -1,7 +1,7 @@
 # YunaWrite
 
 **YunaWrite is a blank paper**
-**0.5**
+**0.5.1**
 
 *This is a lightweight command-line file manager and sandbox written in pure C++*
 
@@ -16,7 +16,7 @@
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Features
+## Features0.5
 
 1. **Modify Python plug-ins**
 
@@ -45,6 +45,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
    But I believe there will still be **`('partners')`** with me!
    crb is the abbreviation of contributor. (This is obviously not international😂)
    *With this instruction, we can see the contributors of YunaWrite*
+
+## Features 0.5.1
+
+1. **orange**
+   In the setting.txt,you can enter **orange** to change the font to orange.
+
+2. **color about ft and opin**
+   In the ft and opin environment,the color will turn **yellow**
+
+3. **bilibili**
+   YunaWrite will be published in bilibili soon.
 
 ## Concluding remarks
 
